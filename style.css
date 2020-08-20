@@ -1,18 +1,26 @@
 body {
+  background-color: peachpuff;
   text-align: center;
+  color: chocolate;
+  font-family: "Lucida Console";
+  margin: 2%;
+}
+header {
   background: url("https://wallpaperaccess.com/full/1194535.jpg");
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: lighten;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: chocolate;
-  font-family: "Lucida Console";
-  margin: 5%;
+  padding: 5px 25px;
 }
 h1 {
-  text-align: left;
   font-size: 70px;
+  color: maroon;
+}
+h2 {
+  font-size: 30px;
+  color: maroon;
 }
 p {
   font-size: 20px;
@@ -20,32 +28,76 @@ p {
 input {
   border: 0;
   padding: 7px;
+  background-color: antiquewhite;
 }
 input[type="submit"] {
   background: goldenrod;
 }
-td, table {
-  margin: auto;
-  padding: 5px;
-  font-size: 20px;
-  color: navy;
-}
 ul {
-  padding: 10px;
-  background: lightsalmon;
+  font-size: 20px;
+  padding: 12px;
+  background: maroon;
   color: white;
 }
 li {
   display: inline;
-  padding: 0px 20px 0px 20px;
+  padding: 50px;
 }
 a, a:visited {
   color: inherit;
   text-decoration: none;
+  display: inline-block;
 }
 a:hover {
-  color: red;
+  transform: scale(1.5);
+  text-shadow: 1px 1px 1px chocolate;
 }
-.intro {
-  color: darkviolet;
+.alt {
+  background-color: chocolate;
+  color: peachpuff;
+}
+img {
+  max-width:90%;
+  max-height:90%;
+  border-radius: 30%;
+}
+.rc237 {
+  background: linear-gradient(to left, rgba(255, 218, 185, 0)10%, rgba(255, 218, 185, 0.7), rgba(255, 218, 185, 1) 90%), url(https://upload.wikimedia.org/wikipedia/commons/0/04/Colden_St_Juniper_Av_td_11_-_Rachel_Carson_IS_237.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  text-align: left;
+  padding: 30px;
+  line-height: 150%;
+  height: 350px;
+}
+.stuy {
+  background: linear-gradient(to right, rgba(255, 218, 185, 0)10%, rgba(255, 218, 185, 0.7), rgba(255, 218, 185, 1) 90%), url(https://nypost.com/wp-content/uploads/sites/2/2020/08/stuyvesant-high-school.jpg?quality=80&strip=all) no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  text-align: right;
+  padding: 30px;
+  line-height: 150%;
+  height: 350px;
+}
+
+.usaco {
+  background-color: white;
+  background-position: center;
+  width: 40%;
+  float: left;
+  margin: 5%;
+  color: white;
+  line-height: 150%;
+  border-radius: 30%;
+}
+
+.tkh {
+  background-color: white;
+  background-position: center;
+  width: 40%;
+  float: right;
+  margin: 5%;
+  color: white;
+  line-height: 150%;
+  border-radius: 30%;
 }

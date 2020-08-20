@@ -8,22 +8,24 @@ function greet(){
 }
 
 function smile(){
-  document.getElementById("smile").innerHTML += " :)";
-  document.getElementById("smile").style.color = "navy";
+  document.getElementById("smile").innerHTML += " c:";
+  document.getElementById("smile").style.color = "chocolate";
 }
 
 function unsmile(){
   let content = document.getElementById("smile").innerHTML;
   document.getElementById("smile").innerHTML = content.substring(0, content.length-2);
-  document.getElementById("smile").style.color = "chocolate";
+  document.getElementById("smile").style.color = "maroon";
 }
 
 function typing(){
-  document.getElementById("enterName").style.backgroundColor = "palegreen";
+  document.getElementById("enterName").style.backgroundColor = "white";
 }
 
 document.getElementById("submit").addEventListener("click", greet);
 
 document.getElementById("enterName").addEventListener("keypress", typing);
+
 document.getElementById("smile").addEventListener("mouseover", smile);
 document.getElementById("smile").addEventListener("mouseout", unsmile);
+
